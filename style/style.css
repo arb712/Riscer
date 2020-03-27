@@ -1,4 +1,97 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: url(/assets/img/back.jpg) no-repeat;
+    background-size: cover !important;
+    background-position: left;
+    height: 90vh;
+    background-size: cover;
+    width: 100%;
+}
+body::-webkit-scrollbar{
+    width: 0.25rem;
+}
+body::-webkit-scrollbar-track{
+    background:black;
+}
+body::-webkit-scrollbar-thumb{
+    background: #DC8E52;    
+}
+header{
+    width: 100%;
+}
+nav{
+    height: 70px;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+.navig{
+    text-align: center;
+}
+.navbar-nav{
+    font-size: 14px;
+    line-height: 21px;
+}
+.navbar-light{
+    background-color: transparent !important;
+}
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.align-middle{
+    border-radius: 50px;
+    border-color: #DC8E52;
+    background-color: #DC8E52;
+}
+.align-middle:hover{
+    border-color: #d4742b;
+    background-color: #d4742b;
+}
+.nav-link:hover{
+    border-bottom:solid 0.5px blue;
+    transition: ease-in 0.5s;
+}
+.hero {
+	height: 100%;
+	color: black;
+	position: relative;
+}
+.hero .text {
+	position: absolute;
+	top: 30%;
+	left: 10px;
+	right: 300px;
+	transform: translateY(-60%);
+	-webkit-transform: translateY(-60%);
+	-moz-transform: translateY(-60%);
+	-o-transform: translateY(-60%);
+	-ms-transform: translateY(-60%);
+	z-index: 1;
+	text-align: center;
+}
+
+.hero .text h1 {
+	margin: 0;
+	font-size: 64px;
+	font-weight: 300;
+	letter-spacing: .5px;
+    line-height: 1.3em;
+    text-transform: uppercase;
+}
+.hero .text h1 .bold {
+	font-weight: 600;
+}
+.sec2{
+    background-color: whitesmoke;
+    height: 70vh;
 }
